@@ -23,6 +23,9 @@ h3 {
   display: inline-block;
   width: 100%;
 }
+#section-0 .container {
+  background-image: url('images/section-0A.png');
+}
 #section-0 body {
   color: #3B2611;
 }
@@ -33,6 +36,9 @@ h3 {
   background-color: #FE58BC;
   display: inline-block;
   width: 100%;
+}
+#section-1 .container {
+  background-image: url('images/section-1.png');
 }
 #section-1 h2 {
   color: #3B2611;
@@ -49,6 +55,9 @@ h3 {
   background-color: #FF9436;
   display: inline-block;
   width: 100%;
+}
+#section-3 .container {
+  background-image: url('images/section-3.png');
 }
 #section-3 h2 {
   color: #3B2611;
@@ -72,5 +81,5 @@ footer {
   font-weight: 700;
   font-style: italic;
   border-radius: 500px;
-  padding: 0.5em 0.2em;
+  padding: 0.2em 0.5em;
 }

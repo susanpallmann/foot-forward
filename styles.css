@@ -5,6 +5,8 @@ body {
 }
 p {
   line-height: 1.4em;
+  transition: color 0.1s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out;
 }
 a {
   text-decoration: none;
@@ -193,6 +195,8 @@ footer ul li {
   margin-left: 0.4em;
   vertical-align: middle;
   margin-top: 0.1em;
+  transition: margin-left 0.1s ease-in-out;
+  -webkit-transition: margin-left 0.1s ease-in-out;
 }
 .external-link:hover:after {
   margin-left: 0.6em;

@@ -17,7 +17,7 @@ $(document).ready(function() {
 function updateBigfoot(num) {
   var change = num;
   var current = $(".happy-meter img").attr("score");
-  var new = current + change;
-  $(".happy-meter img").attr("src", "images/bigfoot-happy-" + new + "".svg);
-  $(".happy-meter img").attr("score", new);
+  var update = current + change;
+  $(".happy-meter img").attr("src", "images/bigfoot-happy-" + update + "".svg);
+  $(".happy-meter img").attr("score", update);
 }

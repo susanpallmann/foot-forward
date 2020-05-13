@@ -27,6 +27,7 @@ header {
   width: 100%;
   position: fixed;
   padding: 0.5em 0;
+  z-index: 2;
 }
 #post-header {
   height: 0%;
@@ -35,6 +36,7 @@ header {
   transition: height 0.1s ease-in-out;
   -webkit-transition: height 0.1s ease-in-out;
   overflow: hidden;
+  z-index: 1;
 }
 h1, h2 {
   font-family: 'playfair display', serif;

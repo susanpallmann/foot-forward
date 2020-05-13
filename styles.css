@@ -24,6 +24,9 @@ h1, h2 {
   font-weight: 700;
   font-style: italic;
 }
+h2 {
+  font-size: 1.2em;
+}
 h3 {
   font-family: 'fauna one', serif;
   text-transform: uppercase;

@@ -171,3 +171,7 @@ footer ul li {
     height: 600px;
   }
 }
+.copyright {
+  font-size: 0.7em;
+  text-align: center;
+}

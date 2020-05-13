@@ -30,6 +30,7 @@ header {
   z-index: 2;
 }
 #post-header {
+  background-color: #3B2611;
   height: 0%;
   width: 100%;
   position: absolute;

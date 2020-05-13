@@ -3,6 +3,11 @@ body {
   color: #ffffff;
   margin: 0;
 }
+header {
+  background-color: #3B2611;
+  display: inline-block;
+  width: 100%;
+}
 h1, h3 {
   font-family: 'playfair display', serif;
   weight: 700;

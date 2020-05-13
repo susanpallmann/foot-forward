@@ -64,3 +64,11 @@ footer {
 .arrow img {
   width: 100%;
 }
+.button {
+  background-color: #FE58BC;
+  color: #ffffff;
+  font-family: 'playfair display', serif;
+  weight: 700;
+  font-style: italic;
+  border-radius: 500px;
+}

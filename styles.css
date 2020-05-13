@@ -137,6 +137,9 @@ footer ul li {
   display: inline;
   margin: 0 2em;
 }
+#section-2 ul li {
+  text-align: center;
+}
 .happy-meter {
   border-radius: 500px;
   width: 100px;

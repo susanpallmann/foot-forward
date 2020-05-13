@@ -9,6 +9,8 @@ p {
 a {
   text-decoration: none;
   color: #ffffff;
+  transition: color 0.1s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out;
 }
 a:hover {
   color: #3B2611;
@@ -104,6 +106,8 @@ footer {
   border-radius: 500px;
   padding: 0.4em 1em;
   cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+  -webkit-transition: background-color 0.1s ease-in-out;
 }
 .button:hover {
   background-color: #3B2611;
@@ -132,6 +136,8 @@ footer {
   margin-right: 0.3em;
   margin-bottom: 1em;
   cursor: pointer;
+  transition: border 0.1s ease-in-out;
+  -webkit-transition: border 0.1s ease-in-out;
 }
 .checkbox:hover {
   border: 2px solid #ffffff;
@@ -313,8 +319,8 @@ footer a:hover {
 }
 .socials-icon svg {
   fill: #ffffff;
-  transition: fill 0.15s ease-in-out;
-  -webkit-transition: fill 0.15s ease-in-out;
+  transition: fill 0.1s ease-in-out;
+  -webkit-transition: fill 0.1s ease-in-out;
 }
 .socials-icon:hover svg {
   fill: #FE58BC;

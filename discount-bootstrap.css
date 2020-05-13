@@ -158,7 +158,7 @@ main .column {
   margin-top: 5em;
 }
 main .container {
-  padding-bottom: 5em;
+  padding-bottom: 1em;
 }
 /* Padding Spacing */
 /* Note that desktop media queries is scaled up slightly (32px) to account for padding */

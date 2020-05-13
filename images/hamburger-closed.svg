@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67.834" height="56.915" viewBox="0 0 67.834 56.915">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>hamburger-closed</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M61.334,34.9575H6.5a6.5,6.5,0,0,1,0-13H61.334a6.5,6.5,0,0,1,0,13Z"/>
+        <path class="cls-1" d="M61.334,56.915H6.5a6.5,6.5,0,0,1,0-13H61.334a6.5,6.5,0,0,1,0,13Z"/>
+        <path class="cls-1" d="M61.334,13H6.5a6.5,6.5,0,0,1,0-13H61.334a6.5,6.5,0,0,1,0,13Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

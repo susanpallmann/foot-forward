@@ -40,6 +40,7 @@ h3 {
 }
 .shade.column:nth-child(1).span7 {
   background-color: rgba(59,38,17,0.5);
+  color: #ffffff;
   padding: 1em;
   padding-bottom: 1em;
   padding-bottom: 3em;

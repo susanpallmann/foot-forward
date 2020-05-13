@@ -109,7 +109,7 @@ label {
   margin-top: 1em;
   color: #FE58BC;
 }
-label[aria-checked="true"] {
+.checkbox[aria-checked="true"] {
   background-image: url('images/check.svg');
   background-size: 100%;
   background-repeat: no-repeat;

@@ -22,6 +22,10 @@ $(document).ready(function() {
       openMenu();
     }
   });
+  $("#hamburger-menu ul li a").click(function() {
+    $("#hamburger-menu").attr("aria-checked", "false");
+    closeMenu();
+  });
 });
 function updateBigfoot(num) {
   var change = num;

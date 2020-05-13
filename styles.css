@@ -112,6 +112,7 @@ footer {
 #checklist {
   width: 16em;
   margin: auto;
+  margin-top: 2em;
 }
 .checkbox {
   width: 20px;

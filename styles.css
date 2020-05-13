@@ -159,7 +159,7 @@ footer ul li {
   vertical-align: middle;
   margin-top: 0.1em;
 }
-.external-link:after:hover {
+.external-link:hover:after {
   margin-left: 0.6em;
   background-image: url('images/carat-hover.svg');
 }

@@ -131,10 +131,12 @@ footer ul li {
 }
 .happy-meter {
   border-radius: 500px;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-color: #FF9436;
 }
 .happy-meter img {
   width: 100%;
+  margin: auto;
+  display: block;
 }

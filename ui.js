@@ -32,9 +32,9 @@ function updateBigfoot(num) {
 }
 function openMenu() {
   $("body").css("overflow", "hidden");
-  $("header").css("height", "100%");
+  $("#after-header").css("height", "100%");
 }
 function closeMenu() {
   $("body").css("overflow", "initial");
-  $("header").css("height", "auto");
+  $("#after-header").css("height", "0");
 }

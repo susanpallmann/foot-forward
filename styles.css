@@ -149,18 +149,18 @@ footer ul li {
   text-align: center;
 }
 .happy-meter {
-  border-radius: 500px;
   width: 100px;
   height: 100px;
   background-color: #FF9436;
   margin: auto;
   margin-top: 1em;
-  border: 2em solid #3B2611;
 }
 .happy-meter img {
   height: 100%;
   margin: auto;
   display: block;
+  border-radius: 500px;
+  border: 2px solid #3B2611;
 }
 .external-link {
   display: inline-block;

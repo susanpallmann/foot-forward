@@ -38,6 +38,13 @@ h3 {
   color: #fff;
   text-shadow: 0px 1px 0.5px #fe58bc;
 }
+.shade {
+  background-color: rgba(255,255,255,0.5);
+  padding: 1em;
+  padding-bottom: 1em;
+  padding-bottom: 3em;
+  margin-top: 6em;
+}
 #section-0 {
   background-color: #F1F2F6;
   display: inline-block;

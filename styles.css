@@ -178,7 +178,7 @@ footer ul li {
     margin-top: 200px;
   }
   #section-3 h2 {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 }
 @media only screen and (min-width: 321px) {
@@ -189,7 +189,7 @@ footer ul li {
     margin-top: 200px;
   }
   #section-3 h2 {
-    margin-top: 200px;
+    margin-top: 150px;
   }
 }
 @media only screen and (min-width: 601px) {
@@ -200,7 +200,7 @@ footer ul li {
     margin-top: 250px;
   }
   #section-3 h2 {
-    margin-top: 250px;
+    margin-top: 200px;
   }
 }
 @media only screen and (min-width: 721px) {
@@ -211,7 +211,7 @@ footer ul li {
     margin-top: 300px;
   }
   #section-3 h2 {
-    margin-top: 300px;
+    margin-top: 250px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -222,7 +222,7 @@ footer ul li {
     margin-top: 300px;
   }
   #section-3 h2 {
-    margin-top: 300px;
+    margin-top: 250px;
   }
 }
 .copyright {

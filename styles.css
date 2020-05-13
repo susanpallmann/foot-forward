@@ -156,28 +156,28 @@ footer ul li {
 }
 /* Media Query Hell */
 @media only screen and (max-width: 320px) {
-  #section-0 {
-    height: 400px;
+  #section-0 .arrow {
+    margin-top: 200px;
   }
 }
 @media only screen and (min-width: 321px) {
-  #section-0 {
-    height: 400px;
+  #section-0 .arrow {
+    margin-top: 200px;
   }
 }
 @media only screen and (min-width: 601px) {
-  #section-0 {
-    height: 450px;
+  #section-0 .arrow {
+    margin-top: 250px;
   }
 }
 @media only screen and (min-width: 721px) {
-  #section-0 {
-    height: 500px;
+  #section-0 .arrow {
+    margin-top: 300px;
   }
 }
 @media only screen and (min-width: 1024px) {
-  #section-0 {
-    height: 600px;
+  #section-0 .arrow {
+    margin-top: 400px;
   }
 }
 .copyright {

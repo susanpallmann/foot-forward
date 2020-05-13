@@ -151,6 +151,8 @@ footer ul li {
   height: 100px;
   background-color: #FF9436;
   margin: auto;
+  margin-top: 1em;
+  border: 2em solid #3B2611;
 }
 .happy-meter img {
   height: 100%;

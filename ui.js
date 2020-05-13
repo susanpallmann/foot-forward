@@ -16,8 +16,10 @@ $(document).ready(function() {
   $("#hamburger-menu").click(function() {
     if ($(this).attr("aria-checked") === "true" ) {
       $(this).attr("aria-checked", "false");
+      closeMenu();
     } else {
       $(this).attr("aria-checked", "true");
+      openMenu();
     }
   });
 });
@@ -27,4 +29,12 @@ function updateBigfoot(num) {
   var update = current + change;
   $(".happy-meter img").attr("src", "images/bigfoot-happy-" + update + ".svg");
   $(".happy-meter img").attr("score", update);
+}
+function openMenu() {
+  $("body").css("overflow", "hidden");
+  $("header").css("height", "100%");
+}
+function closeMenu() {
+  $("body").css("overflow", "initial");
+  $("header").css("height", "auto");
 }

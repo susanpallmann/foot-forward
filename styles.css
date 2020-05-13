@@ -8,10 +8,15 @@ header {
   display: inline-block;
   width: 100%;
 }
-h1, h3 {
+h1, h2 {
   font-family: 'playfair display', serif;
   weight: 700;
   font-style: italic;
+}
+h3 {
+  font-family: 'fauna one', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
 }
 #section-0 {
   background-color: #F1F2F6;

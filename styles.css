@@ -155,13 +155,13 @@ footer ul li {
   margin: auto;
   margin-top: 1em;
   border-radius: 500px;
+  border: 2px solid #3B2611;
 }
 .happy-meter img {
   height: 100%;
   margin: auto;
   display: block;
-  border-radius: 500px;
-  border: 2px solid #3B2611;
+  border-radius: 500px; 
 }
 .external-link {
   display: inline-block;

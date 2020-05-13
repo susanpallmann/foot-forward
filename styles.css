@@ -140,3 +140,7 @@ footer ul li {
   margin: auto;
   display: block;
 }
+.external-link:after {
+  width: 5px;
+  background-image: url('images/carat.svg');
+}

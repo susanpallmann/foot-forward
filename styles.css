@@ -13,7 +13,7 @@ header {
 }
 h1, h2 {
   font-family: 'playfair display', serif;
-  weight: 700;
+  font-weight: 700;
   font-style: italic;
 }
 h3 {

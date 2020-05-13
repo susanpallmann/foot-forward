@@ -4,7 +4,8 @@ body {
   margin: 0;
 }
 .container {
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 header {
   background-color: #3B2611;
@@ -42,6 +43,7 @@ h3 {
 }
 #section-1 .container {
   background-image: url('images/section-1.png');
+  background-position-y: bottom;
 }
 #section-1 h2 {
   color: #3B2611;

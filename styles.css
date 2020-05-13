@@ -338,8 +338,16 @@ footer a:hover {
 #hamburger-menu {
   float: right;
   cursor: pointer;
-}
-#hamburger-icon {
   height: 32px;
   width: 32px;
+}
+#hamburger-menu[aria-checked="false"] {
+  background-image: url('images/hamburger-closed.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#hamburger-menu[aria-checked="true"] {
+  background-image: url('images/hamburger-opened.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }

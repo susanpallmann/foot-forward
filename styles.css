@@ -150,9 +150,24 @@ footer ul li {
   margin: auto;
   display: block;
 }
+.external-link {
+  display: inline-block;
+}
 .external-link:after {
-  width: 5px;
+  width: 7px;
   background-image: url('images/carat.svg');
+  content: '';
+  display: inline-block;
+  height: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 0.4em;
+  vertical-align: middle;
+  margin-top: 0.1em;
+}
+.external-link:after:hover {
+  margin-left: 0.6em;
+  background-image: url('images/carat-hover.svg');
 }
 /* Media Query Hell */
 @media only screen and (max-width: 320px) {

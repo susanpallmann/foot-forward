@@ -190,7 +190,7 @@ footer ul li {
 /* Media Query Hell */
 @media only screen and (max-width: 320px) {
   #section-0 .arrow {
-    margin-top: 0px;
+    margin-top: 200px;
   }
   #section-1 .arrow {
     margin-top: 200px;
@@ -201,7 +201,7 @@ footer ul li {
 }
 @media only screen and (min-width: 321px) {
   #section-0 .arrow {
-    margin-top: 0px;
+    margin-top: 200px;
   }
   #section-1 .arrow {
     margin-top: 200px;
@@ -212,7 +212,7 @@ footer ul li {
 }
 @media only screen and (min-width: 601px) {
   #section-0 .arrow {
-    margin-top: 0px;
+    margin-top: 250px;
   }
   #section-1 .arrow {
     margin-top: 250px;
@@ -223,7 +223,7 @@ footer ul li {
 }
 @media only screen and (min-width: 721px) {
   #section-0 .arrow {
-    margin-top: 0px;
+    margin-top: 300px;
   }
   #section-1 .arrow {
     margin-top: 300px;
@@ -234,7 +234,7 @@ footer ul li {
 }
 @media only screen and (min-width: 1024px) {
   #section-0 .arrow {
-    margin-top: 0px;
+    margin-top: 300px;
   }
   #section-1 .arrow {
     margin-top: 300px;

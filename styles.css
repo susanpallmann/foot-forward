@@ -39,6 +39,9 @@ header {
   overflow: hidden;
   z-index: 1;
 }
+#post-header a:hover {
+  color: #FE58BC;
+}
 h1, h2 {
   font-family: 'playfair display', serif;
   font-weight: 700;

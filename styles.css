@@ -1,0 +1,39 @@
+body {
+  font-family: 'fauna one', serif;
+  color: #ffffff;
+}
+h1, h3 {
+  font-family: 'playfair display', serif;
+  weight: 700;
+  font-style: italic;
+}
+#section-0 {
+  background-color: #F1F2F6;
+}
+#section-0 body {
+  color: #3B2611;
+}
+#section-0 h1 {
+  color: #FE58BC;
+}
+#section-1 {
+  background-color: #FE58BC;
+}
+#section-1 h2 {
+  color: #3B2611;
+}
+#section-2 {
+  background-color: #3B2611;
+}
+#section-1 h2 {
+  color: #FE58BC;
+}
+#section-3 {
+  background-color: #FF9436;
+}
+#section-3 h2 {
+  color: #3B2611;
+}
+footer {
+  background-color: #3B2611;
+}

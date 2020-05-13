@@ -127,3 +127,12 @@ ul {
 footer ul li {
   display: inline;
 }
+.happy-meter {
+  border-radius: 500px;
+  width: 200px;
+  height: 200px;
+  background-color: #FF9436;
+}
+.happy-meter img {
+  width: 100%;
+}

@@ -13,6 +13,13 @@ $(document).ready(function() {
       updateBigfoot(1);
     }
   });
+  $("#hamburger-menu").click(function() {
+    if ($(this).attr("aria-checked") === "true" ) {
+      $(this).attr("aria-checked", "false");
+    } else {
+      $(this).attr("aria-checked", "true");
+    }
+  });
 });
 function updateBigfoot(num) {
   var change = num;

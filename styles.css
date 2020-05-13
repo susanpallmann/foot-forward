@@ -33,7 +33,7 @@ header {
   background-color: #3B2611;
   height: 0%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   transition: height 0.1s ease-in-out;
   -webkit-transition: height 0.1s ease-in-out;
   overflow: hidden;

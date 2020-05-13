@@ -38,6 +38,7 @@ h3 {
   letter-spacing: 0.15em;
   color: #fff;
   text-shadow: 0px 1px 0.5px #fe58bc;
+  margin: 0;
 }
 #section-0 {
   background-color: #F1F2F6;
@@ -335,6 +336,7 @@ footer a:hover {
 }
 #hamburger-menu {
   float: right;
+  cursor: pointer;
 }
 #hamburger-icon {
   height: 32px;

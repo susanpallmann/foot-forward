@@ -78,11 +78,13 @@ footer {
 }
 .button {
   background-color: #FE58BC;
+  border-radius: 500px;
+  padding: 0.2em 0.5em;
+}
+.button a {
   color: #ffffff;
   font-family: 'playfair display', serif;
   text-decoration: none;
   font-weight: 700;
   font-style: italic;
-  border-radius: 500px;
-  padding: 0.2em 0.5em;
 }

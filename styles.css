@@ -28,9 +28,6 @@ h1, h2 {
   font-weight: 700;
   font-style: italic;
 }
-h2 {
-  font-size: 2em;
-}
 h3 {
   font-family: 'Sanchez', serif;
   text-transform: uppercase;
@@ -198,6 +195,9 @@ footer ul li {
   #section-3 h2 {
     margin-top: 150px;
   }
+  h1, h2 {
+    font-size: 1.7em;
+  }
 }
 @media only screen and (min-width: 321px) {
   #section-0 .arrow {
@@ -208,6 +208,9 @@ footer ul li {
   }
   #section-3 h2 {
     margin-top: 150px;
+  }
+  h1, h2 {
+    font-size: 1.7em;
   }
 }
 @media only screen and (min-width: 601px) {
@@ -220,6 +223,9 @@ footer ul li {
   #section-3 h2 {
     margin-top: 200px;
   }
+  h1, h2 {
+    font-size: 1.9em;
+  }
 }
 @media only screen and (min-width: 721px) {
   #section-0 .arrow {
@@ -231,6 +237,9 @@ footer ul li {
   #section-3 h2 {
     margin-top: 250px;
   }
+  h1, h2 {
+    font-size: 2em;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #section-0 .arrow {
@@ -241,6 +250,9 @@ footer ul li {
   }
   #section-3 h2 {
     margin-top: 250px;
+  }
+  h1, h2 {
+    font-size: 2em;
   }
 }
 .copyright {

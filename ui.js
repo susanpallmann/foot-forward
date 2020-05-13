@@ -23,7 +23,7 @@ $(document).ready(function() {
     }
   });
   $("#hamburger-menu ul li a").click(function() {
-    $("#hamburger-menu").attr("aria-checked", "false");
+    $("#post-header").attr("aria-checked", "false");
     closeMenu();
   });
 });

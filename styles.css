@@ -89,7 +89,8 @@ h3 {
 }
 footer {
   background-color: #3B2611;
-  padding-top: 1em;
+  padding-top: 2em;
+  font-family: 'sanchez', serif;
 }
 .arrow {
   width: 24px;

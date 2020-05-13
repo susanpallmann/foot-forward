@@ -26,6 +26,7 @@ header {
   display: inline-block;
   width: 100%;
   position: fixed;
+  padding 1em 0;
 }
 h1, h2 {
   font-family: 'playfair display', serif;

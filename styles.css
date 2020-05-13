@@ -31,6 +31,8 @@ h3 {
   display: inline-block;
   width: 100%;
   background-image: url('images/section-0A.png');
+  background-size: cover;
+  background-position-x: center;
 }
 #section-0 .container {
 }

@@ -61,7 +61,6 @@ h3 {
   background-image: url('images/section-1.png');
   background-position-y: bottom;
   background-position-x: center;
-  background-size: 80%;
 }
 #section-1 h2 {
   color: #3B2611;
@@ -82,7 +81,6 @@ h3 {
 #section-3 .container {
   background-image: url('images/section-3.png');
   background-position-x: center;
-  background-size: 80%;
 }
 #section-3 h2 {
   color: #3B2611;
@@ -198,6 +196,9 @@ footer ul li {
   h1, h2 {
     font-size: 1.7em;
   }
+  #section-1 .container, #section-3 .container {
+    background-size: 100%;
+  }
 }
 @media only screen and (min-width: 321px) {
   #section-0 .arrow {
@@ -211,6 +212,9 @@ footer ul li {
   }
   h1, h2 {
     font-size: 1.7em;
+  }
+  #section-1 .container, #section-3 .container {
+    background-size: 100%;
   }
 }
 @media only screen and (min-width: 601px) {
@@ -226,6 +230,9 @@ footer ul li {
   h1, h2 {
     font-size: 1.9em;
   }
+  #section-1 .container, #section-3 .container {
+    background-size: 90%;
+  }
 }
 @media only screen and (min-width: 721px) {
   #section-0 .arrow {
@@ -240,6 +247,9 @@ footer ul li {
   h1, h2 {
     font-size: 2em;
   }
+  #section-1 .container, #section-3 .container {
+    background-size: 80%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   #section-0 .arrow {
@@ -253,6 +263,9 @@ footer ul li {
   }
   h1, h2 {
     font-size: 2em;
+  }
+  #section-1 .container, #section-3 .container {
+    background-size: 80%;
   }
 }
 .copyright {

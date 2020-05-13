@@ -133,6 +133,9 @@ footer {
   margin-bottom: 1em;
   cursor: pointer;
 }
+.checkbox:hover {
+  border: 2px solid #ffffff;
+}
 label {
   vertical-align: top;
   margin-top: 1em;

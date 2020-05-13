@@ -33,6 +33,7 @@ h3 {
 }
 #section-0 .container {
   background-image: url('images/section-0A.png');
+  width: 100%;
 }
 #section-0 body {
   color: #3B2611;

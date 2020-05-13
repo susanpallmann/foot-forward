@@ -22,8 +22,8 @@ $(document).ready(function() {
       openMenu();
     }
   });
-  $("#hamburger-menu ul li a").click(function() {
-    $("#post-header").attr("aria-checked", "false");
+  $("#post-header ul li a").click(function() {
+    $("#hamburger-menu").attr("aria-checked", "false");
     closeMenu();
   });
 });

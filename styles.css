@@ -109,6 +109,10 @@ footer {
   font-weight: 700;
   font-style: italic;
 }
+#checklist {
+  width: 16em;
+  margin: auto;
+}
 .checkbox {
   width: 20px;
   height: 20px;

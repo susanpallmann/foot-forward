@@ -241,6 +241,10 @@ footer a {
 footer a:hover {
   color: #FE58BC;
 }
+.socials-icon {
+  display: inline-block;
+  margin-right: 0.7em;
+}
 .socials-icon svg {
   fill: #ffffff;
   transition: fill 0.15s ease-in-out;

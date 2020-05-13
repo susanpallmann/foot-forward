@@ -56,3 +56,11 @@ h3 {
 footer {
   background-color: #3B2611;
 }
+.arrow {
+  width: 24px;
+  display: block;
+  margin: auto;
+}
+.arrow img {
+  width: 100%;
+}

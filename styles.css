@@ -68,7 +68,9 @@ footer {
   background-color: #FE58BC;
   color: #ffffff;
   font-family: 'playfair display', serif;
+  text-decoration: none;
   weight: 700;
   font-style: italic;
   border-radius: 500px;
+  padding 0.5em 0.2em;
 }

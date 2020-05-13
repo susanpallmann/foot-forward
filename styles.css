@@ -44,6 +44,8 @@ h3 {
 #section-1 .container {
   background-image: url('images/section-1.png');
   background-position-y: bottom;
+  background-position-x: center;
+  background-size: 60%;
 }
 #section-1 h2 {
   color: #3B2611;
@@ -63,6 +65,8 @@ h3 {
 }
 #section-3 .container {
   background-image: url('images/section-3.png');
+  background-position-x: center;
+  background-size: 60%;
 }
 #section-3 h2 {
   color: #3B2611;

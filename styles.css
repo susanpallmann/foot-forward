@@ -102,6 +102,7 @@ footer {
   display: inline-block;
   margin-right: 0.3em;
   margin-bottom: 1em;
+  cursor: pointer;
 }
 label {
   vertical-align: top;

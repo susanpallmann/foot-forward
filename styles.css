@@ -330,3 +330,10 @@ footer a:hover {
 .socials-icon:hover svg {
   fill: #FE58BC;
 }
+#hamburger-menu {
+  float: right;
+}
+#hamburger-icon {
+  height: 32px;
+  width: 32px;
+}

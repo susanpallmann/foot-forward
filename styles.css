@@ -10,12 +10,6 @@ a {
 a:hover {
   color: #3B2611;
 }
-footer a {
-  color: #FE58BC;
-}
-footer a:hover {
-  color: #ffffff;
-}
 .container {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -199,4 +193,16 @@ footer ul li {
   font-size: 0.7em;
   text-align: center;
   color: #d6b6a7;
+}
+.copyright a {
+  color: #FE58BC;
+}
+.copyright a:hover {
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #FE58BC;
 }

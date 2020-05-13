@@ -95,8 +95,15 @@ footer {
   font-style: italic;
 }
 .checkbox {
-  width:20px;
+  width: 20px;
   height: 20px;
   border: 2px solid #FE58BC;
   border-radius: 2px;
+  display: inline-block;
+  margin-right: 0.3em;
+  margin-bottom: 1em;
+}
+label {
+  vertical-align: top;
+  margin-top: 1em;
 }

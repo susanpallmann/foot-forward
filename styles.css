@@ -82,6 +82,7 @@ footer {
   width: 24px;
   display: block;
   margin: auto;
+  margin-top: 2em;
 }
 .arrow img {
   width: 100%;
@@ -117,9 +118,6 @@ label {
   background-image: url('images/check.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-}
-.ad-council-icon {
-  width: 48px;
 }
 ul {
   list-style: none;

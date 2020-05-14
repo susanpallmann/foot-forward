@@ -82,7 +82,7 @@ function updateNavBlocks(section) {
         $('#scroll p').attr('expanded','false');
     } else {
         $('#scroll p').attr('expanded','false');
-        $('page-' + num).attr('expanded','true');
+        $('#page-' + num).attr('expanded','true');
     }
 }
 /* Test */

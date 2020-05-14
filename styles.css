@@ -43,9 +43,9 @@ header {
   color: #FE58BC;
 }
 #post-header a:hover:after {
-  width: 20px;
-  height: 20px;
-  display: block;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
   content: "";
   background-image: url("images/favicon.png");
   background-size: contain;

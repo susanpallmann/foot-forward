@@ -63,10 +63,11 @@ function getScrollPosition() {
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
-    if (currentScroll < $('#section-3').offsetHeight) {
+    var sectionThree = $('#section-3');
+    if (currentScroll < sectionThree.offsetHeight) {
         console.log("this ran3");
     } else {
-        console.log($('#section-3').offsetHeight + " " + currentScroll);
+        console.log(sectionThree.offsetHeight + " " + currentScroll);
     }
 }
 function updateNavBlocks(section) {

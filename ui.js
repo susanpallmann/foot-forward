@@ -48,7 +48,7 @@ function closeMenu() {
 }
 // Listens for user scroll
 $(window).scroll(function () {
-    if ( $( window ).width(); < 800 ) {
+    if ( $( window ).width() < 800 ) {
     } else {
         // Sets timeout for scroll to see if the user has finished scrolling
         clearTimeout($.data(this, 'scrollTimer'));

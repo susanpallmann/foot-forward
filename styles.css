@@ -438,6 +438,12 @@ footer a:hover {
   color: #ffffff;
   background-color: #FE58BC;
 }
+#privacy .container {
+  background-image: url('images/section-1.png');
+  background-position-y: bottom;
+  background-position-x: center;
+  padding-bottom:4em;
+}
 #privacy a {
   color: #3B2611
 }

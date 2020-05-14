@@ -392,9 +392,10 @@ footer a:hover {
   z-index: 0;
   font-family: 'playfair display', serif;
   font-size: 2.5em;
+  margin: 0;
 }
 #scroll .nav-block {
-  height: 3px;
+  height: 5px;
   border-radius: 500px;
   width: 24px;
   display: block;

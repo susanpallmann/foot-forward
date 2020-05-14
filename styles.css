@@ -442,7 +442,8 @@ footer a:hover {
   background-image: url('images/section-1.png');
   background-position-y: bottom;
   background-position-x: center;
-  padding-bottom:4em;
+  padding-bottom: 20em;
+  background-size: 60%;
 }
 #privacy a {
   color: #3B2611

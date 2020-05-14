@@ -417,14 +417,14 @@ footer a:hover {
 #scroll p[expanded="true"] {
   margin-bottom: 0.7em;
   margin-top: 0.3em;
-  transform: scale(100%);
-  -webkit-transform: scale(100%);
+  transform: scale(1);
+  -webkit-transform: scale(1);
 }
 #scroll p[expanded="false"] {
   margin-bottom: 0;
   margin-top: 0;
-  transform: scale(0%);
-  -webkit-transform: scale(0%);
+  transform: scale(0);
+  -webkit-transform: scale(0);
 }
 #scroll .nav-block {
   height: 5px;

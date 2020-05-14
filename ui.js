@@ -43,7 +43,7 @@ function openMenu() {
     $("#post-header").css("height", "100%");
 }
 function closeMenu() {
-    $("body").css("overflow", "initial");
+    $("body").css("overflow", "visible");
     $("#post-header").css("height", "0");
 }
 // Listens for user scroll

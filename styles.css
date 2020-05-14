@@ -451,3 +451,6 @@ footer a:hover {
 #privacy a:hover {
   color: #ffffff;
 }
+body.privacy {
+  background-color: #34220a;
+}

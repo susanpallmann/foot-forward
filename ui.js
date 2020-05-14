@@ -48,12 +48,15 @@ function closeMenu() {
 }
 // Listens for user scroll
 $(window).scroll(function () {
-    // Sets timeout for scroll to see if the user has finished scrolling
-    clearTimeout($.data(this, 'scrollTimer'));
-    $.data(this, 'scrollTimer', setTimeout(function () {
-        determineScrollLocation();
-        //Scroll timer value
-    }, 100));
+    if ( $( window ).width(); < 800 ) {
+    } else {
+        // Sets timeout for scroll to see if the user has finished scrolling
+        clearTimeout($.data(this, 'scrollTimer'));
+        $.data(this, 'scrollTimer', setTimeout(function () {
+            determineScrollLocation();
+            //Scroll timer value
+        }, 100));
+    }
 });
 function getScrollPosition() {
     var scrollPosition = $(window).scrollTop();
@@ -61,9 +64,9 @@ function getScrollPosition() {
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
-    var sectionOne = $('#section-1').offset().top - 50;
-    var sectionTwo = $('#section-2').offset().top - 50;
-    var sectionThree = $('#section-3').offset().top - 50;
+    var sectionOne = $('#section-1').offset().top - 150;
+    var sectionTwo = $('#section-2').offset().top - 150;
+    var sectionThree = $('#section-3').offset().top - 150;
     if (currentScroll > sectionOne) {
         if (currentScroll > sectionTwo) {
             if (currentScroll > sectionThree) {

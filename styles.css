@@ -388,7 +388,7 @@ footer a:hover {
 }
 #scroll p {
   display: inline-block;
-  z-index: 1;
+  z-index: 0;
 }
 #scroll p:after {
   height: 3px;
@@ -397,4 +397,5 @@ footer a:hover {
   content: "";
   display: block;
   background-color: #ffffff;
+  top: 40%;
 }

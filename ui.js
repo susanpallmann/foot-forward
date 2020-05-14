@@ -26,6 +26,10 @@ $(document).ready(function() {
     $("#hamburger-menu").attr("aria-checked", "false");
     closeMenu();
   });
+  $("#logo").click(function() {
+    $("#hamburger-menu").attr("aria-checked", "false");
+    closeMenu();
+  });
 });
 function updateBigfoot(num) {
   var change = num;

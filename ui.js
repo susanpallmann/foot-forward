@@ -63,7 +63,7 @@ function getScrollPosition() {
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
-    var sectionThree = $('#section-3').scrollTop();
+    var sectionThree = $('#section-3').offset().top;
     if (currentScroll < sectionThree) {
         console.log("this ran3");
     } else {

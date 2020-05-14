@@ -390,4 +390,6 @@ footer a:hover {
   content: "";
   display: block;
   background-color: #ffffff;
+  position: absolute;
+  z-index: 1;
 }

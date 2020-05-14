@@ -384,11 +384,13 @@ footer a:hover {
   background-repeat: no-repeat;
 }
 #scroll {
-  position: absolute;
+  position: fixed;
 }
 #scroll p {
   display: inline-block;
   z-index: 0;
+  font-family: 'playfair display', serif;
+  font-size: 1.3em;
 }
 #scroll p:after {
   height: 3px;

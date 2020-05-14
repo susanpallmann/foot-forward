@@ -385,6 +385,7 @@ footer a:hover {
 }
 #scroll {
   position: fixed;
+  top: 40%;
 }
 #scroll p {
   display: inline-block;
@@ -399,5 +400,4 @@ footer a:hover {
   content: "";
   display: block;
   background-color: #ffffff;
-  top: 40%;
 }

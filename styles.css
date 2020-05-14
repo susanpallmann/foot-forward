@@ -438,3 +438,9 @@ footer a:hover {
   color: #ffffff;
   background-color: #FE58BC;
 }
+#privacy a {
+  color: #3B2611
+}
+#privacy a:hover {
+  color: #ffffff;
+}

@@ -61,7 +61,7 @@ function getScrollPosition() {
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
-    if (currentScoll < $('#section-3').scrollTop() ) {
+    if (currentScroll < $('#section-3').scrollTop() ) {
       console.log("this ran");
     }
 }

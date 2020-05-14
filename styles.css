@@ -256,6 +256,9 @@ footer ul li {
   p {
     font-size: 0.85em;
   }
+  #scroll {
+    display: none;
+  }
 }
 @media only screen and (min-width: 321px) {
   #section-0 .arrow {
@@ -275,6 +278,9 @@ footer ul li {
   }
   p {
     font-size: 0.9em;
+  }
+  #scroll {
+    display: none;
   }
 }
 @media only screen and (min-width: 601px) {
@@ -296,6 +302,9 @@ footer ul li {
   p {
     font-size: 1em;
   }
+  #scroll {
+    display: none;
+  }
 }
 @media only screen and (min-width: 721px) {
   #section-0 .arrow {
@@ -313,8 +322,14 @@ footer ul li {
   #section-1 .container, #section-3 .container {
     background-size: 80%;
   }
+  #scroll {
+    display: none;
+  }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 850px) {
+  #scroll {
+    display: initial;
+  }
   #section-0 .arrow {
     margin-top: 300px;
   }

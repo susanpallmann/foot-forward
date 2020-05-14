@@ -391,13 +391,12 @@ footer a:hover {
   display: inline-block;
   z-index: 0;
   font-family: 'playfair display', serif;
-  font-size: 1.3em;
+  font-size: 2.5em;
 }
-#scroll p:after {
+#scroll .nav-block {
   height: 3px;
   border-radius: 500px;
-  width: 100%;
-  content: "";
+  width: 24px;
   display: block;
   background-color: #ffffff;
 }

@@ -51,6 +51,7 @@ $(window).scroll(function () {
     // Sets timeout for scroll to see if the user has finished scrolling
     clearTimeout($.data(this, 'scrollTimer'));
     $.data(this, 'scrollTimer', setTimeout(function () {
+        console.log("this ran");
         determineScrollLocation();
         //Scroll timer value
     }, 100));
@@ -58,11 +59,14 @@ $(window).scroll(function () {
 function getScrollPosition() {
     var scrollPosition = $(window).scrollTop();
     return scrollPosition;
+    console.log("this ran2");
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
     if (currentScroll < $('#section-3').offsetHeight) {
-      console.log("this ran");
+        console.log("this ran3");
+    } else {
+        console.log("this ran4");
     }
 }
 function updateNavBlocks(section) {

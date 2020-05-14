@@ -42,7 +42,7 @@ header {
 #post-header a:hover {
   color: #FE58BC;
 }
-#post-header a:hover:after {
+#post-header a:hover:before {
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -50,7 +50,7 @@ header {
   background-image: url("images/favicon.png");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 0.4em;
+  margin-right: 0.4em;
   vertical-align: middle;
 }
 #post-header ul {

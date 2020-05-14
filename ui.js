@@ -61,9 +61,9 @@ function getScrollPosition() {
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
-    var sectionOne = $('#section-1').offset().top;
-    var sectionTwo = $('#section-2').offset().top;
-    var sectionThree = $('#section-3').offset().top;
+    var sectionOne = $('#section-1').offset().top - 50;
+    var sectionTwo = $('#section-2').offset().top - 50;
+    var sectionThree = $('#section-3').offset().top - 50;
     if (currentScroll > sectionOne) {
         if (currentScroll > sectionTwo) {
             if (currentScroll > sectionThree) {

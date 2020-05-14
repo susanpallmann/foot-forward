@@ -397,8 +397,8 @@ footer a:hover {
   line-height: 0;
   transition: transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: margin 0.2s ease-in-out;
-  -webkit-transition: margin 0.2s ease-in-out;
+  transition: margin 0.2s ease-in-out 0.3s;
+  -webkit-transition: margin 0.2s ease-in-out 0.3s;
 }
 #scroll p[expanded="true"] {
   margin-bottom: 0.7em;

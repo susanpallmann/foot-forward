@@ -42,6 +42,11 @@ header {
 #post-header a:hover {
   color: #FE58BC;
 }
+#post-header ul {
+  padding-top: 3em;
+  font-size: 2em;
+  line-height: 2em;
+}
 h1, h2 {
   font-family: 'playfair display', serif;
   font-weight: 700;

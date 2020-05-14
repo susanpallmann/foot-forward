@@ -42,6 +42,17 @@ header {
 #post-header a:hover {
   color: #FE58BC;
 }
+#post-header a:hover:after {
+  width: 20px;
+  height: 20px;
+  display: block;
+  content: "";
+  background-image: url("images/favicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 0.4em;
+  vertical-align: middle;
+}
 #post-header ul {
   padding-top: 3em;
   font-size: 2em;

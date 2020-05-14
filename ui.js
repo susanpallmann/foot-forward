@@ -51,7 +51,6 @@ $(window).scroll(function () {
     // Sets timeout for scroll to see if the user has finished scrolling
     clearTimeout($.data(this, 'scrollTimer'));
     $.data(this, 'scrollTimer', setTimeout(function () {
-        console.log("this ran");
         determineScrollLocation();
         //Scroll timer value
     }, 100));
@@ -59,18 +58,31 @@ $(window).scroll(function () {
 function getScrollPosition() {
     var scrollPosition = $(window).scrollTop();
     return scrollPosition;
-    console.log("this ran2");
 }
 function determineScrollLocation() {
     var currentScroll = getScrollPosition();
+    var sectionOne = $('#section-1').offset().top;
+    var sectionTwo = $('#section-2').offset().top;
     var sectionThree = $('#section-3').offset().top;
-    if (currentScroll < sectionThree) {
-        console.log("this ran3");
+    if (currentScroll > sectionOne) {
+        if (currentScroll > sectionTwo) {
+            if (currentScroll > sectionThree) {
+                updateNavBlocks(3);
+            }
+            updateNavBlocks(2);
+        }
+        updateNavBlocks(1);
     } else {
-        console.log(sectionThree + " " + currentScroll);
+        updateNavBlocks(0);
     }
 }
 function updateNavBlocks(section) {
-  
+    var num = section;
+    if (num === 0) {
+        $('#scroll p').attr('expanded','false');
+    } else {
+        $('#scroll p').attr('expanded','false');
+        $('page-' + num).attr('expanded','true');
+    }
 }
 /* Test */

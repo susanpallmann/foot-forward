@@ -68,12 +68,16 @@ function determineScrollLocation() {
         if (currentScroll > sectionTwo) {
             if (currentScroll > sectionThree) {
                 updateNavBlocks(3);
+                return null;
             }
             updateNavBlocks(2);
+            return null;
         }
         updateNavBlocks(1);
+        return null;
     } else {
         updateNavBlocks(0);
+        return null;
     }
 }
 function updateNavBlocks(section) {

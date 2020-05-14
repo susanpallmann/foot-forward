@@ -388,7 +388,7 @@ footer a:hover {
   top: 40%;
   z-index: 0;
 }
-#scroll p {
+#scroll p[expanded="true"] {
   display: block;
   font-family: 'playfair display', serif;
   font-size: 2.5em;
@@ -397,6 +397,14 @@ footer a:hover {
   line-height: 0;
   margin-bottom: 0.7em;
   margin-top: 0.3em;
+  transform: scale(100%);
+  -webkit-transform: scale(100%);
+}
+#scroll p[expanded="false"] {
+  margin-bottom: 0;
+  margin-top: 0;
+  transform: scale(0);
+  -webkit-transform: scale(0);
 }
 #scroll .nav-block {
   height: 5px;
@@ -404,5 +412,6 @@ footer a:hover {
   width: 24px;
   display: block;
   background-color: #ffffff;
+  margin: 0.2em 0;
 }
 /* test */

@@ -383,8 +383,12 @@ footer a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+#scroll {
+  position: absolute;
+}
 #scroll p {
   display: inline-block;
+  z-index: 1;
 }
 #scroll p:after {
   height: 3px;
@@ -393,6 +397,4 @@ footer a:hover {
   content: "";
   display: block;
   background-color: #ffffff;
-  position: absolute;
-  z-index: 1;
 }

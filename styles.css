@@ -383,3 +383,11 @@ footer a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+#scroll p:after {
+  height: 3px;
+  border-radius: 500px;
+  width: 100%;
+  content: "";
+  display: block;
+  background-color: #ffffff;
+}
